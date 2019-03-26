@@ -23,6 +23,8 @@ BeanUtils.copyProperties(sourceObj, targetObj);
 ## 下载安装
 目前暂时只支持手动安装，下载地址：
 
+[下载](MakeO2O.jar)
+
 ## 简单使用
 例如：我们系统里面有UserDTO、UserDO需要转换
 我们只要先写方法签名，入参出参，然后按代码提示键盘，例如：Command + N
