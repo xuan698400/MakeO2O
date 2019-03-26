@@ -1,0 +1,35 @@
+<idea-plugin>
+  <id>com.taobao.xuan</id>
+  <name>MakeO2O</name>
+  <version>1.0</version>
+  <vendor email="javaandswing@163.com" url="http://xuanner.com/">taobao</vendor>
+
+  <description><![CDATA[
+      This plugin can make an Object to another Object transfer methods.  <br>
+      ]]></description>
+
+  <change-notes><![CDATA[
+      1. first version(2019-03-26).<br>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+      <action id="makeO2O" class="com.xuan.makeo2o.MakeO2OAction" text="makeO2O" description="auto make O2O">
+        <add-to-group group-id="GenerateGroup" anchor="last"/>
+      </action>
+  </actions>
+
+</idea-plugin>
